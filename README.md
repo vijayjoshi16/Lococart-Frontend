@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center" style="">LOCOCART</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">A bidding based ecommerce system which unlike all other ecommerce websites/apps provides the customer the luxury of getting the best price of any set of products in his/her city using the bidding feature.
+</h4>
+<p align="center">
+<img src="https://i.ibb.co/qkbt8W6/Loco-Cart-046ea27c.png" alt="Loco-Cart-046ea27c" height="200" width="200">
+</p>
+<h4>
+Once a customer places an order for a set of items, firstly the web app will display the lowest price of all the items offered by a seller within the city. The main feature of bidding starts from here, i.e, for a certain time window after a user places the order the local sellers within the city can compete to offer the lowest price by offering an amount lower than the current lowest price of any seller. The seller with the lowest price on the completion of time window wins the bid and is allotted the order
+.</h4>
+<h4>
+This would prove to be very beneficial for the customers as they would be getting their best price without roaming the entire city and would also grow a healthy competition among the local sellers
+.</h4>
 
-## Available Scripts
+<h2 align="center">TECH STACK USED</h2>
+<h4 align="center">
+React JS • Node JS • Express JS • Mongo DB • Nodemailer/SendGrid
+</h4>
+<h2 align="center">CLIENT-SERVER ARCHITECTURE USED IN THE PROJECT</h2>
+<img src="https://i.ibb.co/7pBjTJJ/Untitled.png" alt="Untitled" border="0">
+<h2 align="center">LIST OF FRONTEND FEATURES/MODULES</h2>
+<p align="center">
+<img src="https://i.ibb.co/z8zKxvz/Untitled.png" alt="Untitled" border="0">
+</p>
+<h2 align="center">LIST OF BACKEND FEATURES/MODULES</h2>
+<p align="center">
+<img src="https://i.ibb.co/sVvGQv5/Untitled.png" alt="Untitled" border="0">
+</p>
+<h2 align="center">SCREENSHOTS</h2>
+<h3>1. LANDING PAGE</h3>
+<img src="https://i.ibb.co/yR0fq1B/Picture2.png" alt="Picture2" border="0">
 
-In the project directory, you can run:
+<h3>2. PRODUCTS</h3>
+<img src="https://i.ibb.co/2SXvq2f/Picture4.jpg" alt="Picture4" border="0">
 
-### `npm start`
+<h3>3. PRODUCT DESCRIPTION</h3>
+<img src="https://i.ibb.co/wRN7s76/Picture8.png" alt="Picture8" border="0">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3>4. SELLER PROFILE</h3>
+<img src="https://i.ibb.co/jJk9Kyf/Picture5.png" alt="Picture5" border="0">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h3>5. 3-STEP PLACE ORDER FEATURE</h3>
+<img src="https://i.ibb.co/3sB2Dhh/Picture7.png" alt="Picture7" border="0">
 
-### `npm test`
+<h3>6. BIDDING PAGE WHERE THE SELLERS COMPETE TO WIN AN ORDER AND THIS IS WHERE THE MAIN ACTION TAKES PLACE</h3>
+<img src="https://i.ibb.co/VQLpJtv/Picture6.png" alt="Picture6" border="0">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 align="center">REFERENCES</h2>
 
-### `npm run build`
+<ul>
+<li>
+W3 SCHOOLS
+https://www.w3schools.com/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<li>
+SEND GRID DOCUMENTATION
+https://github.com/sendgrid/sendgrid-nodejs/tree/main/packages/mail
+</li>
+<li>
+STACKOVERFLOW FOR FIXING BUGS
+https://stackoverflow.com/
+</li>
+<li>
+MATERIAL-UI
+https://material-ui.com/
+</li>
+<li>
+FETCH API
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+</li>
+<li>
+REACT HOOKS
+https://reactjs.org/docs/hooks-intro.html
+</li>
+<li>
+EXPRESS JS DOCUMENTATION
+https://expressjs.com/en/guide/routing.html
+</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 align="center">Loved this project?? If yes, don't forget to give it a ⭐ and share it with your friends 😃</h2>
+<h2 align="center">Check out my other works at https://github.com/vijayjoshi16</h2>
+<h1 align="center">Thank You</h1>
